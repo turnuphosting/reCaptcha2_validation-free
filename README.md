@@ -53,7 +53,7 @@ for IPv6 to work properly!
 
 ```
 cd /usr/local/src
-wget -O reCaptcha2_validation-free.tar.gz https://github.com/poralix/reCaptcha2_validation-free/archive/master.tar.gz
+wget -O reCaptcha2_validation-free.tar.gz https://github.com/turnuphosting/reCaptcha2_validation-free/archive/master.tar.gz
 tar -zxvf reCaptcha2_validation-free.tar.gz
 cd reCaptcha2_validation-free-master/install/
 ./install.sh
