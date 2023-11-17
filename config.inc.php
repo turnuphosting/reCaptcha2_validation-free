@@ -33,8 +33,8 @@
 #############################################################################
 
 # reCaptcha 
-$publickey  = "";
-$privatekey = "";
+$publickey  = "6LcJkz8aAAAAAMdzjEygQmtKv5kG_ToY1LhCohCW";
+$privatekey = "6LcJkz8aAAAAACEpo4-Krd84iJQr_u1in8-kexcq";
 
 #############################################################################
 
@@ -53,7 +53,7 @@ $use_local_css = false;
 $use_local_js = false;
 
 # Company Name
-$company_name = "";
+$company_name = "TurnUpSecurity Shield";
 
 # Company Site
-$company_site = "http://";
+$company_site = "https://turnupsecurityshield.com/";
