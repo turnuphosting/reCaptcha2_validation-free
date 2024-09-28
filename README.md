@@ -1,13 +1,14 @@
 # Version
 
-Serverwide reCAPTCHA VALIDATION FOR WordPress Login page $ v.0.8-Free (beta)
+Serverwide reCAPTCHA VALIDATION FOR WordPress Login page $ v.0.9-Free (beta)
 
 # Copyright notice
 
-Copyright (C) 2016-2020 Alex S Grebenschikov.
+Copyright (C) 2016-2024 Alex S Grebenschikov.
 Written by Alex S Grebenschikov.
 
-Turkish translation made by Evrim Altay Koluaçık (@altayevrim)
+- Turkish translation made by Evrim Altay Koluaçık (@altayevrim)
+- Spanish translation made by Roberto Alvarado (@ralvaradof)
 
 Copyright (c) 2007 reCAPTCHA -- http://recaptcha.net
 AUTHORS: Mike Crawford, Ben Maurer
@@ -22,8 +23,10 @@ AUTHORS: Mike Crawford, Ben Maurer
 - With this you will have a Google's reCaptcha 2 installed server-wide.
 - No need to install reCaptcha individually per user or per site.
 - The addon will remember user's IP for 7 days (default, can be changed).
-- English/Dutch/Russian languages shipped by default.
+- English, Dutch, Russian, Turkish, Spanish languages shipped by default.
 - IP detections works for sites behind CloudFlare proxy.
+- Apache webserver is supported
+- Servers with DirectAdmin, CPanel, generic are supported
 
 # How it works
 
@@ -101,6 +104,7 @@ If you previously disabled reCaptcha for a domain follow the guide to enable it 
 
 # History of changes
 
+- version 0.9: Spanish translation added. Switched to jQuery v3.7.1 and Bootstrap v4.6.2. Code optimization added.
 - version 0.8: Turkish translation added. Switched to jQuery 2.2.4.
 - version 0.7: Uninstall scripts added
 - version 0.6: New feature: excluding domains from reCaptcha protection 
